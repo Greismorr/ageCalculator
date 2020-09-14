@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>
+        <meta lang="pt-br">
+        <meta charset="UTF-8">
+        <title>Calculador de Idade</title>
+        <link rel="stylesheet" href="_css/style.css">
+        <script lang="javascript" src="_js/ageCalculator.js"></script>
+    </head>
+    <body>
+        <div id="indexForm">
+            <p>Ano de Nascimento: 
+                <input type="number" id="ano" min="1900">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radSex" id="masc">
+                <label for="masc">Masculino</label> 
+                <input type="radio" name="radSex" id="fem">
+                <label for="fem">Feminino</label> 
+            </p>
+            <input type="submit" value="Verificar" onclick="ageCalculator()">
+            <div id="response">
+                Preencha os dados acima para ver o resultado!
+            </div>
+            <footer><a href="https://github.com/stackOvercrow">Gabriel dos Reis (stackOvercrow)</a></footer>    
+        </div>
+    </body>
+</html>

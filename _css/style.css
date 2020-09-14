@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: #cccccc;
+}
+
+div#indexForm{
+    background-color: cornflowerblue;
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 5px black;
+    display: block;
+}
+
+input#ano{
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    text-align: center;
+}
+
+div#response{
+    margin-top: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+footer{
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 20px;
+}
