@@ -4,7 +4,7 @@ body{
     background-color: #cccccc;
 }
 
-div#indexForm{
+section#indexForm{
     background-color: cornflowerblue;
     width: 500px;
     text-align: center;
